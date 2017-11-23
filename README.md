@@ -22,12 +22,5 @@ newSyz.txt – Not really used for much, just needed this extra file for one of 
 
 Libraries Used:
 
-tweepy
-csv
-nltk
-re
-TextBlob
-decimal
-operator
-json
+tweepy, csv, nltk, re, TextBlob, decimal, operator, json
 

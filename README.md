@@ -3,9 +3,9 @@
 Execution instructions:
 
 Download all .txt files and .py files to one place. Run Tweepy.py. Tweepy.py is set up right now so that when you run it, all the data will be printed out. To only receive specific data, go to main and comment out every function you do not wish to run. Your options for individual functions are: 
-word_Tokenize() – Prints Unigram Frequency chart
-bigram() – Prints Bigram Frequency chart
-trigram() – Prints Trigram Frequency chart
+word_Tokenize() – Prints Unigram Frequency chart,
+bigram() – Prints Bigram Frequency chart,
+trigram() – Prints Trigram Frequency chart and 
 get_tweet_sentiment() – Prints tweets in order of their assigned sentiment value
 
 Document Descriptions:

@@ -2,7 +2,7 @@
 
 Execution instructions:
 
-Download all .txt files and .py files to one place. Run Tweepy.py. Tweepy.py is set up right now so that when you run it, all the data will be printed out. To only receive specific data, go to main and comment out every function you do not wish to run. Your options for individual functions are: 
+Download all .txt files and .py files to one place. Run Tweepy.py. Tweepy.py is set up right now so that when you run it, all the sentiment data will be printed out. To receive specific data, go to main and comment out every function you do not wish to run. Your options for individual functions are: 
 word_Tokenize() – prints unigram frequency chart,
 bigram() – prints bigram frequency chart,
 trigram() – prints trigram frequency chart and 

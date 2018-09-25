@@ -79,44 +79,7 @@ def word_Tokenize():
         ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", line).split())
     wordFreq = {}
     #Gets rid of all characters I do not want included in word_text
-    word_text = [e for e in word_text if e !=',']
-    word_text = [e for e in word_text if e !='.']
-    word_text = [e for e in word_text if e !='(']  
-    word_text = [e for e in word_text if e !=')']
-    word_text = [e for e in word_text if e !=':']
-    word_text = [e for e in word_text if e !=';']
-    word_text = [e for e in word_text if e !='!']
-    word_text = [e for e in word_text if e !='\\']
-    word_text = [e for e in word_text if e !="'s"]
-    word_text = [e for e in word_text if e !='https']
-    word_text = [e for e in word_text if e !="'"]
-    word_text = [e for e in word_text if e !="-"]
-    word_text = [e for e in word_text if e !='"']
-    word_text = [e for e in word_text if e !='_']
-    word_text = [e for e in word_text if e !="?"]
-    #extra things
-    word_text = [e for e in word_text if e !="d9"]
-    word_text = [e for e in word_text if e !="d9_"]
-    word_text = [e for e in word_text if e !="d9___"]
-    word_text = [e for e in word_text if e !="d9__"]
-    word_text = [e for e in word_text if e !="9_"]
-    word_text = [e for e in word_text if e !="/"]
-    word_text = [e for e in word_text if e !="s"]
-    word_text = [e for e in word_text if e !="aa"]
-    word_text = [e for e in word_text if e !="st"]
-    word_text = [e for e in word_text if e !="c8"]
-    word_text = [e for e in word_text if e !="b4"]
-    word_text = [e for e in word_text if e !="\'8"]
-    word_text = [e for e in word_text if e !="u143"]
-    word_text = [e for e in word_text if e !="uc0"]
-    word_text = [e for e in word_text if e !="ce"]
-    word_text = [e for e in word_text if e !="d5"]
-    word_text = [e for e in word_text if e !="db_"]
-    word_text = [e for e in word_text if e !="fc"]
-    word_text = [e for e in word_text if e !="95"]
-    word_text = [e for e in word_text if e !="d3"]
-    
-   
+    word_text = [e for e in word_text if e !=',','.''(',')',':',';','!','\\','s','https',"'","-",'_',"?","d9","d9_","d9___","d9__","9_","/","s","aa","st","c8","b4","\'8","u143","uc0","ce","d5","db_","fc","95","d3"]
     numWords = len(word_text)
     for i in range(0, numWords):
         word = word_text[i]
